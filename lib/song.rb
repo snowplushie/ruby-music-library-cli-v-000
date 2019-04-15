@@ -5,3 +5,4 @@ class Song
   def initialize
     @@all << self
   end
+end
