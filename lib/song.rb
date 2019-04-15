@@ -9,4 +9,7 @@ class Song
   def self.all
     @@all
   end
+  
+  def self.destory_all
+    
 end
