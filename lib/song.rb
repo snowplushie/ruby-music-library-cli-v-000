@@ -10,7 +10,7 @@ class Song
     @@all
   end
   
-  def self.destory_all
-    @@all.clear
+  def self.destroy_all
+    all.clear
   end
 end
