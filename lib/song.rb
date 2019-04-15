@@ -18,6 +18,6 @@ class Song
     self.class.all << self
   end
   
-  def create
-    
+  def self.create(name)
+    name.new.tap
 end
