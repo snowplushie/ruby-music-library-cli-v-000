@@ -41,3 +41,4 @@ def list_songs
     puts "#{i}. #{s.artist.name} - #{s.name} - #{s.genre.name}"
   end
 end
+end
