@@ -9,6 +9,7 @@ class MusicLibraryController
     
     while input != "exit"
     puts "Welcome to your music library!"
+    puts "To list all of your songs, enter 'list songs'."
     puts "What would you like to do?"
     input = gets.strip
   end
